@@ -5,10 +5,12 @@ public class App {
 	public static void main(String[] args) {
 		
 		/*
-		 * This class serves as the entry point for the application and demonstrates the functionality. It uses a main method under which I have included both AsteriskLogger & SpacedLogger. As you can see when you run the application it produces the results we programmed in the other classes.
+		 * This class serves as the entry point for the application and demonstrates the functionality. 
+		 * It  uses a main method under which I have included both AsteriskLogger & SpacedLogger. As you can
+		 * see when you run the application it produces the results we programmed in the other classes.
 		 */
 	
-	     Logger asteriskLogger = new AsteriskLogger();
+	     	Logger asteriskLogger = new AsteriskLogger();
 	        Logger spacedLogger = new SpacedLogger();
 
 	       
